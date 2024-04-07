@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Main {
     public static Scanner sc = new Scanner(System.in);
 
@@ -177,8 +178,9 @@ public class Main {
     }
 
 
-    public static void main(String[] args) {
-        task10();
-    }
 
+
+    public static void main(String[] args) {
+        task1();
+    }
 }
