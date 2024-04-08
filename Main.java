@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static Scanner sc = new Scanner(System.in);
 
-    public static int findMin(int n, int mn){
+    public static int findMin(int n, int mn){ // complexity O(n)
         if(n == 0){
             return mn;
         }
@@ -21,7 +21,7 @@ public class Main {
     }
 
 
-    public static double findAverage(int n, int m, double sum){
+    public static double findAverage(int n, int m, double sum){ // complexity O(n)
         if(n == 0){
             return sum/m;
         }
@@ -37,7 +37,7 @@ public class Main {
     }
 
 
-    public static boolean isPrime(int n, int m){
+    public static boolean isPrime(int n, int m){ // complexity O(n)
         if(n == m){
             return true;
         }
@@ -53,7 +53,7 @@ public class Main {
     }
 
 
-    public static int findFactorial(int n){
+    public static int findFactorial(int n){ //complexity O(n)
         if(n == 1){
             return 1;
         }
@@ -65,7 +65,7 @@ public class Main {
     }
 
 
-    public static int findFibo(int n){
+    public static int findFibo(int n){ //complexity O(2^n)
         if (n == 0){
             return 0;
         }
@@ -82,7 +82,7 @@ public class Main {
     }
 
 
-    public static int findDegree(int n, int m, int sum){
+    public static int findDegree(int n, int m, int sum){ //complexity O(m)
         if(m == 0){
             return sum;
         }
@@ -116,7 +116,7 @@ public class Main {
             s = swap(s, i, j);
         }
     }
-    public static void permutation(String s, int n){
+    public static void permutation(String s, int n){ //complexity O(n!)
         if(n == s.length()){
             System.out.println(s);
             return;
@@ -151,7 +151,7 @@ public class Main {
     }
 
 
-    public static int binomialCof(int n, int k){
+    public static int binomialCof(int n, int k){ //complexity O(2^n)
         if(k == 0 || k == n){
             return 1;
         }
